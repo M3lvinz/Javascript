@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Activity Class Melvin</title>
+</head>
+<body>
+    <script>
+        //Soal 1
+        let array2 = [5, 2, 4, 1, 3, 5]
+        array2.sort()
+        document.writeln(`<b>Soal 1</b> <br> ${array2} <br>`)
+
+        //Soal 2
+        document.writeln(`<br> <b>Soal 2</b> <br>`)
+        let array3 = ["selamat", "anda", "melakukan", "perulangan", "array", "dengan", "for"]
+        for (let kata of array3) {
+            document.writeln(`${kata} <br>`)
+        }
+
+        //Soal 3
+        document.writeln(`<br> <b>Soal 3</b> <br>`)
+        let array4 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+        for (let i = 0; i < array4.length; i++) {
+            if (array4[i] % 2 === 0) {
+                document.writeln(array4[i], "<br>");
+            }
+        }
+
+        //Soal 4
+        let kalimat = ["saya", "sangat", "senang", "belajar", "javascript"];
+        let hasilkalimat = kalimat.join(" ");
+        document.writeln(`<br> <b>Soal 4</b> <br> ${hasilkalimat} <br>`)
+
+        //Soal 5
+        var sayuran = [];
+        sayuran.push('Kangkung', 'Bayam', 'Buncis', 'Kubis', 'Timun', 'Seledri', 'Tauge');
+        let joinSayuran = sayuran.join(" ")
+        document.writeln(`<br> <b>Soal 5</b> <br> ${joinSayuran} <br>`);
+    </script>
+</body>
+</html>
